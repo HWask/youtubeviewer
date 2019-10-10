@@ -1,7 +1,7 @@
 # youtubeviewer
 
 
-Youtubeviewer lets you import json files and explore its contents. The json files need to have the following format:
+Youtubeviewer lets you import json files and explore its contents. It is written using the React framework and is meant to be run in a webbrowser. The json files need to have the following format:
 
 [
   {
