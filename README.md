@@ -14,7 +14,7 @@ Youtubeviewer lets you import json files and explore its contents. It is written
 ]
 
 Generally speaking this was intented to let you explore your oversized playlists on youtube. You can search for specific videos by title.
-Regular Expressions are supported aswell. By clicking on an image the video is marked for export. By clicking on export you get a list of youtube links to the videos you marked earlier. In order to get a valid json file you can use my youtubescraper python script. It uses the youtube API to retrieve the video data saved in a playlist, but also supports other features.
+Regular Expressions are supported aswell. By clicking on an image the video is marked for export. By clicking on export you get a list of youtube links to the videos you marked earlier. In order to get a valid json file you can use my youtubescraper https://github.com/HWask/youtubescraper/ python script. It uses the youtube API to retrieve the video data saved in a playlist, but also supports other features.
 
 
 ![Screenshot](https://i.imgur.com/0wqRNKX.png)
