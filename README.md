@@ -17,4 +17,5 @@ Generally speaking this was intented to let you explore your oversized playlists
 Regular Expressions are supported aswell. By clicking on an image the video is marked for export. By clicking on export you get a list of youtube links to the videos you marked earlier. In order to get a valid json file you can use my youtubescraper python script. It uses the youtube API to retrieve the video data saved in a playlist, but also supports other features.
 
 
-![Screenshot](https://imgur.com//i.imgur.com/0wqRNKX.png)
+![Screenshot](https://i.imgur.com/0wqRNKX.png)
+![Screenshot](https://i.imgur.com/dHQqFOq.png)
