@@ -1,0 +1,22 @@
+.popup {
+	z-index:1;
+	max-width:200px;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	background-color:#292933;
+	color:#C6C4C5;
+	font-size:16px;
+	padding:10px;
+	display:flex;
+	align-items:center;
+}
+
+.icon {
+	width:50px;
+}
+
+.center {
+	text-align:left;
+	padding-left:10px;
+}

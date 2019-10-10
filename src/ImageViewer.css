@@ -1,0 +1,121 @@
+.imageContainer {
+	box-sizing:border-box;
+	width:25%;
+	padding:5px;
+}
+
+.image {
+	cursor:pointer;
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+}
+
+.checkbox {
+ -webkit-appearance:none;
+ height:70px;
+ width:70px;
+ cursor:pointer;
+ position:relative;
+ margin:0;
+}
+
+
+.checkbox:before,
+.checkbox:checked:before {
+ position:absolute;
+ width:100%;
+ height:100%;
+ text-align:center;
+ color:green;
+ font-size:70px;
+ content: "";
+ top:-15px;
+}
+
+.checkbox:checked:before {
+ content: '✔';
+}
+
+.checkbox:focus {
+ outline:0;
+}
+
+.imageTitle {
+	font-size:18px;
+	width:100%;
+	text-align:left;
+	overflow:auto;
+}
+
+.imageTitle a,
+.imageTitle a:visited {
+	color:black;
+}
+
+.imageTitle a:hover {
+	color:grey;
+}
+
+.checkboxContainer {
+	position:relative;
+	cursor:pointer;
+}
+
+.checkboxdiv {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+.playIcon {
+	float:right;
+	width:25px;
+	height:25px;
+	cursor:pointer;
+	margin-top:2px;
+}
+
+.playIcon:hover {
+	color:grey;
+}
+
+.iframe {
+	width:100%;
+	height:100%;
+	padding:0;
+	border:0;
+}
+
+.imageAspect {
+	width:100%;
+	position:relative;
+	top:0;
+	left:0;
+	padding-top:75%;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+	.imageContainer {
+		width:100%;
+		padding:0;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.imageContainer {
+		width:50%;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.imageContainer {
+		width:25%;
+	}
+}
