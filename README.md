@@ -19,3 +19,5 @@ Regular Expressions are supported aswell. By clicking on an image the video is m
 
 ![Screenshot](https://i.imgur.com/0wqRNKX.png)
 ![Screenshot](https://i.imgur.com/dHQqFOq.png)
+
+Dependencies: jquery
