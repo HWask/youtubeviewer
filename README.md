@@ -17,6 +17,6 @@ Generally speaking this is intended to let you explore your oversized playlists 
 
 
 ![Screenshot](https://i.imgur.com/0wqRNKX.png)
-![Screenshot](https://i.imgur.com/dHQqFOq.png)
+![Screenshot](https://i.imgur.com/txqmDlA.png)
 
 Dependencies: jquery
